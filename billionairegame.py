@@ -3,7 +3,7 @@ import random
 def bruteForce(n):
     totalScore = 0
     for i in range(n):
-        scoreBias = 6
+        scoreBias = 5
         r = random.randint(1,100)
         
         left = 1
